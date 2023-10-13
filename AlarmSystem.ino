@@ -3,11 +3,11 @@
 * Compiler      : 
 * Autor         : Vigasan   
 * Created       : 13/02/2023
-* Modified      : 
+* Modified      : 13/10/2023
 * Last modified :
 *
 *
-* Description   : 
+* Description   : expanding to 30 analog inputs
 *
 * Other info    : Alarm System Application for ESP32
 **************************************************************************************************************************************************/
