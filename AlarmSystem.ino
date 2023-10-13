@@ -121,133 +121,150 @@
 #define CMD_GET_AIN28                           37
 #define CMD_GET_AIN29                           38
 #define CMD_GET_AIN30                           39
-
-#define CMD_SET_THR_AIN1                        22
-#define CMD_GET_THR_AIN1                        23
-#define CMD_SET_THR_AIN2                        24
-#define CMD_GET_THR_AIN2                        25
-#define CMD_SET_THR_AIN3                        26
-#define CMD_GET_THR_AIN3                        27
-#define CMD_SET_THR_AIN4                        28
-#define CMD_GET_THR_AIN4                        29
-#define CMD_SET_THR_AIN5                        30
-#define CMD_GET_THR_AIN5                        31
-#define CMD_SET_THR_AIN6                        32
-#define CMD_GET_THR_AIN6                        33
-#define CMD_SET_THR_AIN7                        34
-#define CMD_GET_THR_AIN7                        35
-#define CMD_SET_THR_AIN8                        36
-#define CMD_GET_THR_AIN8                        37
-#define CMD_SET_THR_AIN9                        22
-#define CMD_GET_THR_AIN9                        23
-#define CMD_SET_THR_AIN10                        24
-#define CMD_GET_THR_AIN10                        25
-#define CMD_SET_THR_AIN11                        26
-#define CMD_GET_THR_AIN11                        27
-#define CMD_SET_THR_AIN12                        28
-#define CMD_GET_THR_AIN12                        29
-#define CMD_SET_THR_AIN13                        30
-#define CMD_GET_THR_AIN13                        31
-#define CMD_SET_THR_AIN14                        32
-#define CMD_GET_THR_AIN14                        33
-#define CMD_SET_THR_AIN15                        34
-#define CMD_GET_THR_AIN15                        35
-#define CMD_SET_THR_AIN16                        36
-#define CMD_GET_THR_AIN16                        37
-#define CMD_SET_THR_AIN17                        24
-#define CMD_GET_THR_AIN17                        25
-#define CMD_SET_THR_AIN18                        26
-#define CMD_GET_THR_AIN18                        27
-#define CMD_SET_THR_AIN19                        28
-#define CMD_GET_THR_AIN19                        29
-#define CMD_SET_THR_AIN20                        30
-#define CMD_GET_THR_AIN20                        31
-#define CMD_SET_THR_AIN21                        32
-#define CMD_GET_THR_AIN21                        33
-#define CMD_SET_THR_AIN22                        34
-#define CMD_GET_THR_AIN22                        35
-#define CMD_SET_THR_AIN23                        36
-#define CMD_GET_THR_AIN23                        37
-#define CMD_SET_THR_AIN24                        30
-#define CMD_GET_THR_AIN24                        31
-#define CMD_SET_THR_AIN25                        32
-#define CMD_GET_THR_AIN25                        33
-#define CMD_SET_THR_AIN26                        34
-#define CMD_GET_THR_AIN26                        35
-#define CMD_SET_THR_AIN27                        36
-#define CMD_GET_THR_AIN27                        37
-#define CMD_SET_THR_AIN28                        30
-#define CMD_GET_THR_AIN28                        31
-#define CMD_SET_THR_AIN29                        32
-#define CMD_GET_THR_AIN29                        33
-#define CMD_SET_THR_AIN30                        34
-#define CMD_GET_THR_AIN30                        35
-
-
-#define CMD_GET_INPUTS                          38
-#define CMD_SET_AUX_POWER                       39
-#define CMD_GET_AUX_POWER                       40
-#define CMD_SET_TEST_BATTERY                    41
-#define CMD_GET_TEST_BATTERY                    42
-#define CMD_SET_RELAY2                          43
-#define CMD_GET_RELAY2                          44
-#define CMD_SET_RELAY3                          45
-#define CMD_GET_RELAY3                          46
-#define CMD_SET_RELAY4                          47
-#define CMD_GET_RELAY4                          48
-#define CMD_SET_RELAY5                          49
-#define CMD_GET_RELAY5                          50
-#define CMD_SET_SYSTEM_STATUS                   51
-#define CMD_GET_SYSTEM_STATUS                   52
-#define CMD_SET_GUI_STATUS                      53
-#define CMD_GET_V_EXT                           54
-#define CMD_GET_V_BATT                          55
-#define CMD_GET_V_BOARD                         56
-#define CMD_SET_BUS_POWER                       57
-#define CMD_GET_BUS_POWER                       58
-#define CMD_SET_DATE_TIME                       59
-#define CMD_GET_DATE_TIME                       60
-#define CMD_INIT_SYSTEM                         61
-#define CMD_EXT_POWER_STATUS                    62
-#define CMD_OUTPUTS                             63
-
+#define CMD_SET_THR_AIN1                        40
+#define CMD_GET_THR_AIN1                        41
+#define CMD_SET_THR_AIN2                        42
+#define CMD_GET_THR_AIN2                        43
+#define CMD_SET_THR_AIN3                        44
+#define CMD_GET_THR_AIN3                        45
+#define CMD_SET_THR_AIN4                        46
+#define CMD_GET_THR_AIN4                        47
+#define CMD_SET_THR_AIN5                        48
+#define CMD_GET_THR_AIN5                        49
+#define CMD_SET_THR_AIN6                        50
+#define CMD_GET_THR_AIN6                        51
+#define CMD_SET_THR_AIN7                        52
+#define CMD_GET_THR_AIN7                        53
+#define CMD_SET_THR_AIN8                        54
+#define CMD_GET_THR_AIN8                        55
+#define CMD_SET_THR_AIN9                        56
+#define CMD_GET_THR_AIN9                        57
+#define CMD_SET_THR_AIN10                       58
+#define CMD_GET_THR_AIN10                       59
+#define CMD_SET_THR_AIN11                       60
+#define CMD_GET_THR_AIN11                       61
+#define CMD_SET_THR_AIN12                       62
+#define CMD_GET_THR_AIN12                       63
+#define CMD_SET_THR_AIN13                       64
+#define CMD_GET_THR_AIN13                       65
+#define CMD_SET_THR_AIN14                       66
+#define CMD_GET_THR_AIN14                       67
+#define CMD_SET_THR_AIN15                       68
+#define CMD_GET_THR_AIN15                       69
+#define CMD_SET_THR_AIN16                       70
+#define CMD_GET_THR_AIN16                       71
+#define CMD_SET_THR_AIN17                       72
+#define CMD_GET_THR_AIN17                       73
+#define CMD_SET_THR_AIN18                       74
+#define CMD_GET_THR_AIN18                       75
+#define CMD_SET_THR_AIN19                       76
+#define CMD_GET_THR_AIN19                       77
+#define CMD_SET_THR_AIN20                       78
+#define CMD_GET_THR_AIN20                       79
+#define CMD_SET_THR_AIN21                       80
+#define CMD_SET_THR_AIN22                       81
+#define CMD_GET_THR_AIN22                       82
+#define CMD_SET_THR_AIN23                       83
+#define CMD_GET_THR_AIN23                       84
+#define CMD_SET_THR_AIN24                       85
+#define CMD_GET_THR_AIN24                       86
+#define CMD_SET_THR_AIN25                       87
+#define CMD_GET_THR_AIN25                       88
+#define CMD_SET_THR_AIN26                       89
+#define CMD_GET_THR_AIN26                       90
+#define CMD_SET_THR_AIN27                       91
+#define CMD_GET_THR_AIN27                       92
+#define CMD_SET_THR_AIN28                       93
+#define CMD_GET_THR_AIN28                       94
+#define CMD_SET_THR_AIN29                       95
+#define CMD_GET_THR_AIN29                       96
+#define CMD_SET_THR_AIN30                       97
+#define CMD_GET_THR_AIN30                       98
+#define CMD_GET_INPUTS                          99
+#define CMD_SET_AUX_POWER                       100
+#define CMD_GET_AUX_POWER                       101
+#define CMD_SET_TEST_BATTERY                    102
+#define CMD_GET_TEST_BATTERY                    103
+#define CMD_SET_RELAY2                          104
+#define CMD_GET_RELAY2                          105
+#define CMD_SET_RELAY3                          106
+#define CMD_GET_RELAY3                          107
+#define CMD_SET_RELAY4                          108
+#define CMD_GET_RELAY4                          109
+#define CMD_SET_RELAY5                          110
+#define CMD_GET_RELAY5                          111
+#define CMD_SET_SYSTEM_STATUS                   112
+#define CMD_GET_SYSTEM_STATUS                   113
+#define CMD_SET_GUI_STATUS                      114
+#define CMD_GET_V_EXT                           115
+#define CMD_GET_V_BATT                          116
+#define CMD_GET_V_BOARD                         117
+#define CMD_SET_BUS_POWER                       118
+#define CMD_GET_BUS_POWER                       119
+#define CMD_SET_DATE_TIME                       120
+#define CMD_GET_DATE_TIME                       121
+#define CMD_INIT_SYSTEM                         122
+#define CMD_EXT_POWER_STATUS                    123
+#define CMD_OUTPUTS                             124
 
 /*-----------------------------------------------------------------------------------------------------------------------------------------------*/
 /*------------------------------------MQTT DISCOVERY PARAMETERS----------------------------------------------------------------------------------*/
 /*-----------------------------------------------------------------------------------------------------------------------------------------------*/
 const char*         g_ssid = "Wifi Name";                           // Wifi SSID Name
-const char*         g_password = "Wifi Passoword";                  // Wifi Password
-const char*         g_mqtt_server = "192.168.1.25";                 // IP Address of MQTT Broker (Maybe same of Home Assistant)
+const char*         g_password = "Wifi Password";                  // Wifi Password
+const char*         g_mqtt_server = "192.168.1.125";                 // IP Address of MQTT Broker (Maybe same of Home Assistant)
 const char*         g_mqttUser = "mosquitto";                       // MQTT Broker User
 const char*         g_mqttPsw = "psw";                              // MQTT Broker Password
 int                 g_mqttPort = 1883;                              // MQTT Broker Port
 
-const char*         g_mqtt_DeviceName = "IOTMB_Alarm";              // Your Device Name
+const char*         g_mqtt_DeviceName = "Security";              // Your Device Name
 
-String              g_TopicState_ain1 = "IOTMB_Alarm/ain1/state";   // State Topic for entity input ain1
-String              g_TopicState_ain2 = "IOTMB_Alarm/ain2/state";   // State Topic for entity input ain2
-String              g_TopicState_ain3 = "IOTMB_Alarm/ain3/state";   // State Topic for entity input ain3
-String              g_TopicState_ain4 = "IOTMB_Alarm/ain4/state";   // State Topic for entity input ain4
-String              g_TopicState_ain5 = "IOTMB_Alarm/ain5/state";   // State Topic for entity input ain5
-String              g_TopicState_ain6 = "IOTMB_Alarm/ain6/state";   // State Topic for entity input ain6
-String              g_TopicState_ain7 = "IOTMB_Alarm/ain7/state";   // State Topic for entity input ain7
-String              g_TopicState_ain8 = "IOTMB_Alarm/ain8/state";   // State Topic for entity input ain8
+String              g_TopicState_ain1 = "Security/ain1/state";   // State Topic for entity input ain1
+String              g_TopicState_ain2 = "Security/ain2/state";   // State Topic for entity input ain2
+String              g_TopicState_ain3 = "Security/ain3/state";   // State Topic for entity input ain3
+String              g_TopicState_ain4 = "Security/ain4/state";   // State Topic for entity input ain4
+String              g_TopicState_ain5 = "Security/ain5/state";   // State Topic for entity input ain5
+String              g_TopicState_ain6 = "Security/ain6/state";   // State Topic for entity input ain6
+String              g_TopicState_ain7 = "Security/ain7/state";   // State Topic for entity input ain7
+String              g_TopicState_ain8 = "Security/ain8/state";   // State Topic for entity input ain8
+String              g_TopicState_ain1 = "Security/ain9/state";   // State Topic for entity input ain1
+String              g_TopicState_ain2 = "Security/ain10/state";   // State Topic for entity input ain2
+String              g_TopicState_ain3 = "Security/ain11/state";   // State Topic for entity input ain3
+String              g_TopicState_ain4 = "Security/ain12/state";   // State Topic for entity input ain4
+String              g_TopicState_ain5 = "Security/ain13/state";   // State Topic for entity input ain5
+String              g_TopicState_ain6 = "Security/ain14/state";   // State Topic for entity input ain6
+String              g_TopicState_ain7 = "Security/ain15/state";   // State Topic for entity input ain7
+String              g_TopicState_ain8 = "Security/ain16/state";   // State Topic for entity input ain8
+String              g_TopicState_ain1 = "Security/ain17/state";   // State Topic for entity input ain1
+String              g_TopicState_ain2 = "Security/ain18/state";   // State Topic for entity input ain2
+String              g_TopicState_ain3 = "Security/ain19/state";   // State Topic for entity input ain3
+String              g_TopicState_ain4 = "Security/ain20/state";   // State Topic for entity input ain4
+String              g_TopicState_ain5 = "Security/ain21/state";   // State Topic for entity input ain5
+String              g_TopicState_ain6 = "Security/ain22/state";   // State Topic for entity input ain6
+String              g_TopicState_ain7 = "Security/ain23/state";   // State Topic for entity input ain7
+String              g_TopicState_ain8 = "Security/ain24/state";   // State Topic for entity input ain8
+String              g_TopicState_ain1 = "Security/ain25/state";   // State Topic for entity input ain1
+String              g_TopicState_ain2 = "Security/ain26/state";   // State Topic for entity input ain2
+String              g_TopicState_ain3 = "Security/ain27/state";   // State Topic for entity input ain3
+String              g_TopicState_ain4 = "Security/ain28/state";   // State Topic for entity input ain4
+String              g_TopicState_ain5 = "Security/ain29/state";   // State Topic for entity input ain5
+String              g_TopicState_ain6 = "Security/ain30/state";   // State Topic for entity input ain6
 
-String              g_TopicState_din1 = "IOTMB_Alarm/din1/state";   // State Topic for entity input din1
-String              g_TopicState_din2 = "IOTMB_Alarm/din2/state";   // State Topic for entity input din2
-String              g_TopicState_din3 = "IOTMB_Alarm/din3/state";   // State Topic for entity input din3
-String              g_TopicState_din4 = "IOTMB_Alarm/din4/state";   // State Topic for entity input din4
+// String              g_TopicState_din1 = "Security/din1/state";   // State Topic for entity input din1
+// String              g_TopicState_din2 = "Security/din2/state";   // State Topic for entity input din2
+// String              g_TopicState_din3 = "Security/din3/state";   // State Topic for entity input din3
+// String              g_TopicState_din4 = "Security/din4/state";   // State Topic for entity input din4
 
-String              g_TopicRelay1 = "IOTMB_Alarm/relay1";           // Topic for entity relay1
-String              g_TopicRelay2 = "IOTMB_Alarm/relay2";           // Topic for entity relay2
-String              g_TopicRelay3 = "IOTMB_Alarm/relay3";           // Topic for entity relay3
-String              g_TopicRelay4 = "IOTMB_Alarm/relay4";           // Topic for entity relay4
-String              g_TopicRelayBell = "IOTMB_Alarm/relayBell";     // Topic for entity relayBell (Alarm Siren)
-String              g_TopicSwitchBus = "IOTMB_Alarm/switchBus";     // Topic for entity switch Power Bus
-String              g_TopicSwitchTestBattery = "IOTMB_Alarm/switchTestBatt";  // Topic for entity switch Test Battery
+String              g_TopicRelay1 = "Security/relay1";           // Topic for entity relay1
+String              g_TopicRelay2 = "Security/relay2";           // Topic for entity relay2
+String              g_TopicRelay3 = "Security/relay3";           // Topic for entity relay3
+String              g_TopicRelay4 = "Security/relay4";           // Topic for entity relay4
+String              g_TopicRelayBell = "Security/relayBell";     // Topic for entity relayBell (Alarm Siren)
+String              g_TopicSwitchBus = "Security/switchBus";     // Topic for entity switch Power Bus
+String              g_TopicSwitchTestBattery = "Security/switchTestBatt";  // Topic for entity switch Test Battery
 
-String              g_TopicPowerState = "IOTMB_Alarm/power/state";  // State Topic for entity Power (Check for blackout)
-String              g_TopicVoltBattery = "IOTMB_Alarm/battery/state"; // State Topic for entity Battery
+String              g_TopicPowerState = "Security/power/state";  // State Topic for entity Power (Check for blackout)
+String              g_TopicVoltBattery = "Security/battery/state"; // State Topic for entity Battery
 
 /*-----------------------------------------------------------------------------------------------------------------------------------------------*/
 /*------------------------------------Generic global variables-----------------------------------------------------------------------------------*/
@@ -294,14 +311,58 @@ word                g_aIn7 = 0;
 word                g_old_aIn7 = 0xFFFF;
 word                g_aIn8 = 0;
 word                g_old_aIn8 = 0xFFFF;
-word                g_dIn1 = 0;
-word                g_old_dIn1 = 0xFFFF;
-word                g_dIn2 = 0;
-word                g_old_dIn2 = 0xFFFF;
-word                g_dIn3 = 0;
-word                g_old_dIn3 = 0xFFFF;
-word                g_dIn4 = 0;
-word                g_old_dIn4 = 0xFFFF;
+word                g_aIn9 = 0;
+word                g_old_aIn9 = 0xFFFF;
+word                g_aIn10 = 0;
+word                g_old_aIn10 = 0xFFFF;
+word                g_aIn11 = 0;
+word                g_old_aIn11 = 0xFFFF;
+word                g_aIn12 = 0;
+word                g_old_aIn12 = 0xFFFF;
+word                g_aIn13 = 0;
+word                g_old_aIn13 = 0xFFFF;
+word                g_aIn14 = 0;
+word                g_old_aIn14 = 0xFFFF;
+word                g_aIn15 = 0;
+word                g_old_aIn15 = 0xFFFF;
+word                g_aIn16 = 0;
+word                g_old_aIn16 = 0xFFFF;
+word                g_aIn17 = 0;
+word                g_old_aIn17 = 0xFFFF;
+word                g_aIn18 = 0;
+word                g_old_aIn18 = 0xFFFF;
+word                g_aIn19 = 0;
+word                g_old_aIn19 = 0xFFFF;
+word                g_aIn20 = 0;
+word                g_old_aIn20 = 0xFFFF;
+word                g_aIn21 = 0;
+word                g_old_aIn21 = 0xFFFF;
+word                g_aIn22 = 0;
+word                g_old_aIn22 = 0xFFFF;
+word                g_aIn23 = 0;
+word                g_old_aIn23 = 0xFFFF;
+word                g_aIn24 = 0;
+word                g_old_aIn24 = 0xFFFF;
+word                g_aIn25 = 0;
+word                g_old_aIn25 = 0xFFFF;
+word                g_aIn26 = 0;
+word                g_old_aIn26 = 0xFFFF;
+word                g_aIn27 = 0;
+word                g_old_aIn27 = 0xFFFF;
+word                g_aIn28 = 0;
+word                g_old_aIn28 = 0xFFFF;
+word                g_aIn29 = 0;
+word                g_old_aIn29 = 0xFFFF;
+word                g_aIn30 = 0;
+word                g_old_aIn30 = 0xFFFF;
+// word                g_dIn1 = 0;
+// word                g_old_dIn1 = 0xFFFF;
+// word                g_dIn2 = 0;
+// word                g_old_dIn2 = 0xFFFF;
+// word                g_dIn3 = 0;
+// word                g_old_dIn3 = 0xFFFF;
+// word                g_dIn4 = 0;
+// word                g_old_dIn4 = 0xFFFF;
 byte                g_Relay1 = 0;
 byte                g_oldRelay1 = 0xFF;
 byte                g_Relay2 = 0;
@@ -334,7 +395,7 @@ void setup()
 
     Serial.println("");
     Serial.println("");
-    Serial.println("-------- IOTMB ALARM ----------");
+    Serial.println("-------- SECURITY ----------");
    
     //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     // Wifi Init
@@ -454,6 +515,89 @@ void loop()
                                 g_Inputs = GPL_GetWord(g_InputBuffer);
                                 Serial.println(g_Inputs);
 
+                                // g_aIn1 = ((g_Inputs & 0x0001) > 0) ? 1 : 0;
+                                // if(g_aIn1 != g_old_aIn1)
+                                // {
+                                //     g_old_aIn1 = g_aIn1;
+                                //     MqttPublishStatus_aIn1();
+                                // }
+
+                                // g_aIn2 = ((g_Inputs & 0x0002) > 0) ? 1 : 0;
+                                // if(g_aIn2 != g_old_aIn2)
+                                // {
+                                //     g_old_aIn2 = g_aIn2;
+                                //     MqttPublishStatus_aIn2();
+                                // }
+
+                                // g_aIn3 = ((g_Inputs & 0x0004) > 0) ? 1 : 0;
+                                // if(g_aIn3 != g_old_aIn3)
+                                // {
+                                //     g_old_aIn3 = g_aIn3;
+                                //     MqttPublishStatus_aIn3();
+                                // }
+
+                                // g_aIn4 = ((g_Inputs & 0x0008) > 0) ? 1 : 0;
+                                // if(g_aIn4 != g_old_aIn4)
+                                // {
+                                //     g_old_aIn4 = g_aIn4;
+                                //     MqttPublishStatus_aIn4();
+                                // }
+
+                                // g_aIn5 = ((g_Inputs & 0x0010) > 0) ? 1 : 0;
+                                // if(g_aIn5 != g_old_aIn5)
+                                // {
+                                //     g_old_aIn5 = g_aIn5;
+                                //     MqttPublishStatus_aIn5();
+                                // }
+
+                                // g_aIn6 = ((g_Inputs & 0x0020) > 0) ? 1 : 0;
+                                // if(g_aIn6 != g_old_aIn6)
+                                // {
+                                //     g_old_aIn6 = g_aIn6;
+                                //     MqttPublishStatus_aIn6();
+                                // }
+
+                                // g_aIn7 = ((g_Inputs & 0x0040) > 0) ? 1 : 0;
+                                // if(g_aIn7 != g_old_aIn7)
+                                // {
+                                //     g_old_aIn7 = g_aIn7;
+                                //     MqttPublishStatus_aIn7();
+                                // }
+
+                                // g_aIn8 = ((g_Inputs & 0x0080) > 0) ? 1 : 0;
+                                // if(g_aIn8 != g_old_aIn8)
+                                // {
+                                //     g_old_aIn8 = g_aIn8;
+                                //     MqttPublishStatus_aIn8();
+                                // }
+
+                                // g_dIn1 = ((g_Inputs & 0x0100) > 0) ? 1 : 0;
+                                // if(g_dIn1 != g_old_dIn1)
+                                // {
+                                //     g_old_dIn1 = g_dIn1;
+                                //     MqttPublishStatus_dIn1();
+                                // }
+
+                                // g_dIn2 = ((g_Inputs & 0x0200) > 0) ? 1 : 0;
+                                // if(g_dIn2 != g_old_dIn2)
+                                // {
+                                //     g_old_dIn2 = g_dIn2;
+                                //     MqttPublishStatus_dIn2();
+                                // }
+
+                                // g_dIn3 = ((g_Inputs & 0x0400) > 0) ? 1 : 0;
+                                // if(g_dIn3 != g_old_dIn3)
+                                // {
+                                //     g_old_dIn3 = g_dIn3;
+                                //     MqttPublishStatus_dIn3();
+                                // }
+
+                                // g_dIn4 = ((g_Inputs & 0x0800) > 0) ? 1 : 0;
+                                // if(g_dIn4 != g_old_dIn4)
+                                // {
+                                //     g_old_dIn4 = g_dIn4;
+                                //     MqttPublishStatus_dIn4();
+                                // }
                                 g_aIn1 = ((g_Inputs & 0x0001) > 0) ? 1 : 0;
                                 if(g_aIn1 != g_old_aIn1)
                                 {
@@ -510,33 +654,133 @@ void loop()
                                     MqttPublishStatus_aIn8();
                                 }
 
-                                g_dIn1 = ((g_Inputs & 0x0100) > 0) ? 1 : 0;
-                                if(g_dIn1 != g_old_dIn1)
+                                g_aIn9 = ((g_Inputs & 0x0100) > 0) ? 1 : 0;
+                                if(g_aIn9 != g_old_aIn9)
                                 {
-                                    g_old_dIn1 = g_dIn1;
-                                    MqttPublishStatus_dIn1();
+                                    g_old_aIn9 = g_aIn9;
+                                    MqttPublishStatus_aIn9();
                                 }
 
-                                g_dIn2 = ((g_Inputs & 0x0200) > 0) ? 1 : 0;
-                                if(g_dIn2 != g_old_dIn2)
+                                g_aIn10 = ((g_Inputs & 0x0200) > 0) ? 1 : 0;
+                                if(g_aIn10 != g_old_aIn10)
                                 {
-                                    g_old_dIn2 = g_dIn2;
-                                    MqttPublishStatus_dIn2();
+                                    g_old_aIn10 = g_aIn10;
+                                    MqttPublishStatus_aIn10();
                                 }
 
-                                g_dIn3 = ((g_Inputs & 0x0400) > 0) ? 1 : 0;
-                                if(g_dIn3 != g_old_dIn3)
+                                g_aIn11 = ((g_Inputs & 0x0400) > 0) ? 1 : 0;
+                                if(g_aIn11 != g_old_aIn11)
                                 {
-                                    g_old_dIn3 = g_dIn3;
-                                    MqttPublishStatus_dIn3();
+                                    g_old_aIn11 = g_aIn11;
+                                    MqttPublishStatus_aIn11();
                                 }
 
-                                g_dIn4 = ((g_Inputs & 0x0800) > 0) ? 1 : 0;
-                                if(g_dIn4 != g_old_dIn4)
+                                g_aIn12 = ((g_Inputs & 0x0800) > 0) ? 1 : 0;
+                                if(g_aIn12 != g_old_aIn12)
                                 {
-                                    g_old_dIn4 = g_dIn4;
-                                    MqttPublishStatus_dIn4();
+                                    g_old_aIn12 = g_aIn12;
+                                    MqttPublishStatus_aIn12();
                                 }
+
+                                g_aIn13 = ((g_Inputs & 0x1000) > 0) ? 1 : 0;
+                                if(g_aIn13 != g_old_aIn13)
+                                {
+                                    g_old_aIn13 = g_aIn13;
+                                    MqttPublishStatus_aIn13();
+                                }
+
+                                g_aIn14 = ((g_Inputs & 0x2000) > 0) ? 1 : 0;
+                                if(g_aIn14 != g_old_aIn14)
+                                {
+                                    g_old_aIn14 = g_aIn14;
+                                    MqttPublishStatus_aIn14();
+                                }
+
+                                g_aIn15 = ((g_Inputs & 0x4000) > 0) ? 1 : 0;
+                                if(g_aIn15 != g_old_aIn15)
+                                {
+                                    g_old_aIn15 = g_aIn15;
+                                    MqttPublishStatus_aIn15();
+                                }
+
+                                g_aIn16 = ((g_Inputs & 0x8000) > 0) ? 1 : 0;
+                                if(g_aIn16 != g_old_aIn16)
+                                {
+                                    g_old_aIn16 = g_aIn16;
+                                    MqttPublishStatus_aIn16();
+                                }
+*****
+                                g_aIn12 = ((g_Inputs & 0x0800) > 0) ? 1 : 0;
+                                if(g_aIn12 != g_old_aIn12)
+                                {
+                                    g_old_aIn12 = g_aIn12;
+                                    MqttPublishStatus_aIn12();
+                                }
+
+                                g_aIn12 = ((g_Inputs & 0x0800) > 0) ? 1 : 0;
+                                if(g_aIn12 != g_old_aIn12)
+                                {
+                                    g_old_aIn12 = g_aIn12;
+                                    MqttPublishStatus_aIn12();
+                                }
+
+                                g_aIn12 = ((g_Inputs & 0x0800) > 0) ? 1 : 0;
+                                if(g_aIn12 != g_old_aIn12)
+                                {
+                                    g_old_aIn12 = g_aIn12;
+                                    MqttPublishStatus_aIn12();
+                                }
+
+                                g_aIn12 = ((g_Inputs & 0x0800) > 0) ? 1 : 0;
+                                if(g_aIn12 != g_old_aIn12)
+                                {
+                                    g_old_aIn12 = g_aIn12;
+                                    MqttPublishStatus_aIn12();
+                                }
+
+                                g_aIn12 = ((g_Inputs & 0x0800) > 0) ? 1 : 0;
+                                if(g_aIn12 != g_old_aIn12)
+                                {
+                                    g_old_aIn12 = g_aIn12;
+                                    MqttPublishStatus_aIn12();
+                                }
+
+                                g_aIn12 = ((g_Inputs & 0x0800) > 0) ? 1 : 0;
+                                if(g_aIn12 != g_old_aIn12)
+                                {
+                                    g_old_aIn12 = g_aIn12;
+                                    MqttPublishStatus_aIn12();
+                                }
+
+                                g_aIn12 = ((g_Inputs & 0x0800) > 0) ? 1 : 0;
+                                if(g_aIn12 != g_old_aIn12)
+                                {
+                                    g_old_aIn12 = g_aIn12;
+                                    MqttPublishStatus_aIn12();
+                                }
+
+                                g_aIn12 = ((g_Inputs & 0x0800) > 0) ? 1 : 0;
+                                if(g_aIn12 != g_old_aIn12)
+                                {
+                                    g_old_aIn12 = g_aIn12;
+                                    MqttPublishStatus_aIn12();
+                                }
+
+                                g_aIn12 = ((g_Inputs & 0x0800) > 0) ? 1 : 0;
+                                if(g_aIn12 != g_old_aIn12)
+                                {
+                                    g_old_aIn12 = g_aIn12;
+                                    MqttPublishStatus_aIn12();
+                                }
+
+                                g_aIn12 = ((g_Inputs & 0x0800) > 0) ? 1 : 0;
+                                if(g_aIn12 != g_old_aIn12)
+                                {
+                                    g_old_aIn12 = g_aIn12;
+                                    MqttPublishStatus_aIn12();
+                                }
+***
+                                
                             } break;
 
                             case CMD_OUTPUTS:
@@ -777,13 +1021,13 @@ void MqttHomeAssistantDiscovery()
         StaticJsonDocument<600> payload;
         JsonObject device;
         JsonArray identifiers;
-        
+>>>>>>         
         //////////////////////////////////////////////////////////////////////////////////////////////////////////////
         // Analog Input 1
         //////////////////////////////////////////////////////////////////////////////////////////////////////////////
         discoveryTopic = "homeassistant/binary_sensor/ain1/config";     // Discovery Topic for entity ain1
 
-        payload["name"] = "IOTMB_Alarm.ain1";      
+        payload["name"] = "Security.ain1";      
         payload["uniq_id"] = g_UniqueId + "_ain1";
         payload["stat_t"] = g_TopicState_ain1;
         payload["dev_cla"] = "door";
@@ -810,7 +1054,7 @@ void MqttHomeAssistantDiscovery()
         identifiers.clear();
         strPayload.clear();
 
-        payload["name"] = "IOTMB_Alarm.ain2";      
+        payload["name"] = "Security.ain2";      
         payload["uniq_id"] = g_UniqueId + "_ain2";
         payload["stat_t"] = g_TopicState_ain2;
         payload["dev_cla"] = "door";
@@ -837,7 +1081,7 @@ void MqttHomeAssistantDiscovery()
         identifiers.clear();
         strPayload.clear();
 
-        payload["name"] = "IOTMB_Alarm.ain3";      
+        payload["name"] = "Security.ain3";      
         payload["uniq_id"] = g_UniqueId + "_ain3";
         payload["stat_t"] = g_TopicState_ain3;
         payload["dev_cla"] = "door";
@@ -864,7 +1108,7 @@ void MqttHomeAssistantDiscovery()
         identifiers.clear();
         strPayload.clear();
 
-        payload["name"] = "IOTMB_Alarm.ain4";      
+        payload["name"] = "Security.ain4";      
         payload["uniq_id"] = g_UniqueId + "_ain4";
         payload["stat_t"] = g_TopicState_ain4;
         payload["dev_cla"] = "door";
@@ -891,7 +1135,7 @@ void MqttHomeAssistantDiscovery()
         identifiers.clear();
         strPayload.clear();
 
-        payload["name"] = "IOTMB_Alarm.ain5";      
+        payload["name"] = "Security.ain5";      
         payload["uniq_id"] = g_UniqueId + "_ain5";
         payload["stat_t"] = g_TopicState_ain5;
         payload["dev_cla"] = "door";
@@ -918,7 +1162,7 @@ void MqttHomeAssistantDiscovery()
         identifiers.clear();
         strPayload.clear();
 
-        payload["name"] = "IOTMB_Alarm.ain6";      
+        payload["name"] = "Security.ain6";      
         payload["uniq_id"] = g_UniqueId + "_ain6";
         payload["stat_t"] = g_TopicState_ain6;
         payload["dev_cla"] = "door";
@@ -945,7 +1189,7 @@ void MqttHomeAssistantDiscovery()
         identifiers.clear();
         strPayload.clear();
 
-        payload["name"] = "IOTMB_Alarm.ain7";      
+        payload["name"] = "Security.ain7";      
         payload["uniq_id"] = g_UniqueId + "_ain7";
         payload["stat_t"] = g_TopicState_ain7;
         payload["dev_cla"] = "door";
@@ -972,7 +1216,7 @@ void MqttHomeAssistantDiscovery()
         identifiers.clear();
         strPayload.clear();
 
-        payload["name"] = "IOTMB_Alarm.ain8";      
+        payload["name"] = "Security.ain8";      
         payload["uniq_id"] = g_UniqueId + "_ain8";
         payload["stat_t"] = g_TopicState_ain8;
         payload["dev_cla"] = "door";
@@ -999,7 +1243,7 @@ void MqttHomeAssistantDiscovery()
         identifiers.clear();
         strPayload.clear();
 
-        payload["name"] = "IOTMB_Alarm.din1";      
+        payload["name"] = "Security.din1";      
         payload["uniq_id"] = g_UniqueId + "_din1";
         payload["stat_t"] = g_TopicState_din1;
         device = payload.createNestedObject("device");
@@ -1025,7 +1269,7 @@ void MqttHomeAssistantDiscovery()
         identifiers.clear();
         strPayload.clear();
 
-        payload["name"] = "IOTMB_Alarm.din2";      
+        payload["name"] = "Security.din2";      
         payload["uniq_id"] = g_UniqueId + "_din2";
         payload["stat_t"] = g_TopicState_din2;
         device = payload.createNestedObject("device");
@@ -1051,7 +1295,7 @@ void MqttHomeAssistantDiscovery()
         identifiers.clear();
         strPayload.clear();
 
-        payload["name"] = "IOTMB_Alarm.din3";      
+        payload["name"] = "Security.din3";      
         payload["uniq_id"] = g_UniqueId + "_din3";
         payload["stat_t"] = g_TopicState_din3;
         device = payload.createNestedObject("device");
@@ -1077,7 +1321,7 @@ void MqttHomeAssistantDiscovery()
         identifiers.clear();
         strPayload.clear();
 
-        payload["name"] = "IOTMB_Alarm.din4";      
+        payload["name"] = "Security.din4";      
         payload["uniq_id"] = g_UniqueId + "_din4";
         payload["stat_t"] = g_TopicState_din4;
         device = payload.createNestedObject("device");
@@ -1103,12 +1347,12 @@ void MqttHomeAssistantDiscovery()
         identifiers.clear();
         strPayload.clear();
 
-        payload["name"] = "IOTMB_Alarm.Bell";                 
+        payload["name"] = "Security.Bell";                 
         payload["uniq_id"] = g_UniqueId + "_bell";                                                       
         payload["stat_t"] = g_TopicRelayBell + "/state";    
         payload["cmd_t"] = g_TopicRelayBell + "/set"; 
         device = payload.createNestedObject("device");
-        device["name"] = "IOTMB_Alarm";
+        device["name"] = "Security";
         device["model"] = "IOTMB_RevA";
         device["manufacturer"] = "VLC";
         identifiers = device.createNestedArray("identifiers");
@@ -1130,12 +1374,12 @@ void MqttHomeAssistantDiscovery()
         identifiers.clear();
         strPayload.clear();
 
-        payload["name"] = "IOTMB_Alarm.relay1";                 
+        payload["name"] = "Security.relay1";                 
         payload["uniq_id"] = g_UniqueId + "_relay1";                                                          
         payload["stat_t"] = g_TopicRelay1 + "/state";    
         payload["cmd_t"] = g_TopicRelay1 + "/set"; 
         device = payload.createNestedObject("device");
-        device["name"] = "IOTMB_Alarm";
+        device["name"] = "Security";
         device["model"] = "IOTMB_RevA";
         device["manufacturer"] = "VLC";
         identifiers = device.createNestedArray("identifiers");
@@ -1157,12 +1401,12 @@ void MqttHomeAssistantDiscovery()
         identifiers.clear();
         strPayload.clear();
 
-        payload["name"] = "IOTMB_Alarm.relay2";                 
+        payload["name"] = "Security.relay2";                 
         payload["uniq_id"] = g_UniqueId + "_relay2";                                                            
         payload["stat_t"] = g_TopicRelay2 + "/state";    
         payload["cmd_t"] = g_TopicRelay2 + "/set"; 
         device = payload.createNestedObject("device");
-        device["name"] = "IOTMB_Alarm";
+        device["name"] = "Security";
         device["model"] = "IOTMB_RevA";
         device["manufacturer"] = "VLC";
         identifiers = device.createNestedArray("identifiers");
@@ -1184,12 +1428,12 @@ void MqttHomeAssistantDiscovery()
         identifiers.clear();
         strPayload.clear();
 
-        payload["name"] = "IOTMB_Alarm.relay3";                 
+        payload["name"] = "Security.relay3";                 
         payload["uniq_id"] = g_UniqueId + "_relay3";                                                           
         payload["stat_t"] = g_TopicRelay3 + "/state";    
         payload["cmd_t"] = g_TopicRelay3 + "/set"; 
         device = payload.createNestedObject("device");
-        device["name"] = "IOTMB_Alarm";
+        device["name"] = "Security";
         device["model"] = "IOTMB_RevA";
         device["manufacturer"] = "VLC";
         identifiers = device.createNestedArray("identifiers");
@@ -1211,12 +1455,12 @@ void MqttHomeAssistantDiscovery()
         identifiers.clear();
         strPayload.clear();
 
-        payload["name"] = "IOTMB_Alarm.relay4";                 
+        payload["name"] = "Security.relay4";                 
         payload["uniq_id"] = g_UniqueId + "_relay4";                                                           
         payload["stat_t"] = g_TopicRelay4 + "/state";    
         payload["cmd_t"] = g_TopicRelay4 + "/set"; 
         device = payload.createNestedObject("device");
-        device["name"] = "IOTMB_Alarm";
+        device["name"] = "Security";
         device["model"] = "IOTMB_RevA";
         device["manufacturer"] = "VLC";
         identifiers = device.createNestedArray("identifiers");
@@ -1238,12 +1482,12 @@ void MqttHomeAssistantDiscovery()
         identifiers.clear();
         strPayload.clear();
 
-        payload["name"] = "IOTMB_Alarm.Bus";                 
+        payload["name"] = "Security.Bus";                 
         payload["uniq_id"] = g_UniqueId + "_switchBus";                                                          
         payload["stat_t"] = g_TopicSwitchBus + "/state";    
         payload["cmd_t"] = g_TopicSwitchBus + "/set"; 
         device = payload.createNestedObject("device");
-        device["name"] = "IOTMB_Alarm";
+        device["name"] = "Security";
         device["model"] = "IOTMB_RevA";
         device["manufacturer"] = "VLC";
         identifiers = device.createNestedArray("identifiers");
@@ -1265,12 +1509,12 @@ void MqttHomeAssistantDiscovery()
         identifiers.clear();
         strPayload.clear();
 
-        payload["name"] = "IOTMB_Alarm.TestBattery";                 
+        payload["name"] = "Security.TestBattery";                 
         payload["uniq_id"] = g_UniqueId + "_switcheTestBatt";                                                          
         payload["stat_t"] = g_TopicSwitchTestBattery + "/state";    
         payload["cmd_t"] = g_TopicSwitchTestBattery + "/set"; 
         device = payload.createNestedObject("device");
-        device["name"] = "IOTMB_Alarm";
+        device["name"] = "Security";
         device["model"] = "IOTMB_RevA";
         device["manufacturer"] = "VLC";
         identifiers = device.createNestedArray("identifiers");
@@ -1293,13 +1537,13 @@ void MqttHomeAssistantDiscovery()
 
         discoveryTopic = "homeassistant/binary_sensor/powerState/config";
         
-        payload["name"] = "IOTMB_Alarm.powerstate";
+        payload["name"] = "Security.powerstate";
         payload["uniq_id"] = g_UniqueId + "_binary";
         payload["stat_t"] = g_TopicPowerState;
         //payload["val_tpl"] = "{{ value_json.pwrStatus | is_defined }}";
         payload["dev_cla"] = "power";
         device = payload.createNestedObject("device");
-        device["name"] = "IOTMB_Alarm";
+        device["name"] = "Security";
         device["model"] = "IOTMB_RevA";
         device["manufacturer"] = "VLC";
         identifiers = device.createNestedArray("identifiers");
@@ -1321,13 +1565,13 @@ void MqttHomeAssistantDiscovery()
         identifiers.clear();
         strPayload.clear();
 
-        payload["name"] = "IOTMB_Alarm.voltBatt";                 
+        payload["name"] = "Security.voltBatt";                 
         payload["uniq_id"] = g_UniqueId + "_battVolt";                                                          
         payload["stat_t"] = g_TopicVoltBattery;
         payload["unit_of_meas"] = "V";
         //payload["val_tpl"] = "{{ value_json.battVolt | is_defined }}";
         device = payload.createNestedObject("device");
-        device["name"] = "IOTMB_Alarm";
+        device["name"] = "Security";
         device["model"] = "IOTMB_RevA";
         device["manufacturer"] = "VLC";
         identifiers = device.createNestedArray("identifiers");
