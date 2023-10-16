@@ -11,8 +11,138 @@
 *
 * Other info    : Alarm System Application for ESP32
 **************************************************************************************************************************************************/
+// Map multiplexer control pins.
+#define S0 52
+#define S1 53
+#define S2 50
+#define S3 51
+#define Z A0  // Common pin
+
+void setup() {
+  // Define pin modes.
+  pinMode(S0, OUTPUT);
+  pinMode(S1, OUTPUT);
+  pinMode(S2, OUTPUT);
+  pinMode(S3, OUTPUT);
+  pinMode(Z, INPUT);
+
+  // Initialize serial communication for debugging.
+  Serial.begin(9600);
+} 
+
+void loop() {
+  // Read from each of the 30 analog inputs.
+  for (int i = 0; i < 30; i++) {
+    // Determine the control pin settings for the given channel.
+    int controlPinSetting = i;
+
+    // Set the multiplexer control pins to the received setting.
+    digitalWrite(S0, bitRead(controlPinSetting, 0));
+    digitalWrite(S1, bitRead(controlPinSetting, 1));
+    digitalWrite(S2, bitRead(controlPinSetting, 2));
+    digitalWrite(S3, bitRead(controlPinSetting, 3));
+
+    // Read the analog value from the multiplexer's common pin.
+    int sensorValue = analogRead(Z);
+
+    // Print the current channel and the read value to the serial monitor.
+    Serial.print("Channel ");
+    Serial.print(i);
+    Serial.print(": ");
+    Serial.println(sensorValue);
+  } 
+
+  // Wait a little before starting the next round of readings.  
+  delay(1000);
+} 
+
+***** chatgpt
+
+#include <Arduino.h>
+
+// Define the control pins for the first 74HC4067 multiplexer
+const int S0_1 = PK0;
+const int S1_1 = PK1;
+const int S2_1 = PK2;
+const int S3_1 = PK3;
+const int Z_1 = PA7;
+const int E_1 = PK5;
+
+// Define the control pins for the second 74HC4067 multiplexer
+const int S0_2 = PC1;
+const int S1_2 = PC2;
+const int S2_2 = PC3;
+const int S3_2 = PC0;
+const int Z_2 = PF3;
+
+void setup() {
+  // Set control pins as OUTPUT
+  pinMode(S0_1, OUTPUT);
+  pinMode(S1_1, OUTPUT);
+  pinMode(S2_1, OUTPUT);
+  pinMode(S3_1, OUTPUT);
+  pinMode(Z_1, OUTPUT);
+  pinMode(E_1, OUTPUT);
+
+  pinMode(S0_2, OUTPUT);
+  pinMode(S1_2, OUTPUT);
+  pinMode(S2_2, OUTPUT);
+  pinMode(S3_2, OUTPUT);
+  pinMode(Z_2, OUTPUT);
+
+  // Initialize the multiplexers to read from Y0 initially
+  selectChannel(0, 1); // Select channel 0 on the first multiplexer
+  selectChannel(0, 2); // Select channel 0 on the second multiplexer
+}
+
+void loop() {
+  for (int channel = 0; channel < 16; channel++) {
+    // Select the channel on the first multiplexer
+    selectChannel(channel, 1);
+
+    // Read the analog value from the first multiplexer
+    int sensorValue_1 = analogRead(A0); // Assuming A0 is the analog input on ATmega2560
+
+    // Select the channel on the second multiplexer
+    selectChannel(channel, 2);
+
+    // Read the analog value from the second multiplexer
+    int sensorValue_2 = analogRead(A0);
+
+    // Print the values from both multiplexers
+    Serial.print("Analog Input from Multiplexer 1, Channel ");
+    Serial.print(channel);
+    Serial.print(": ");
+    Serial.println(sensorValue_1);
+
+    Serial.print("Analog Input from Multiplexer 2, Channel ");
+    Serial.print(channel);
+    Serial.print(": ");
+    Serial.println(sensorValue_2);
+
+    delay(1000); // Delay for a second (adjust as needed)
+  }
+}
+
+void selectChannel(int channel, int multiplexer) {
+  // Determine which multiplexer to select
+  if (multiplexer == 1) {
+    digitalWrite(S0_1, channel & 0x01);
+    digitalWrite(S1_1, (channel >> 1) & 0x01);
+    digitalWrite(S2_1, (channel >> 2) & 0x01);
+    digitalWrite(S3_1, (channel >> 3) & 0x01);
+  } else if (multiplexer == 2) {
+    digitalWrite(S0_2, channel & 0x01);
+    digitalWrite(S1_2, (channel >> 1) & 0x01);
+    digitalWrite(S2_2, (channel >> 2) & 0x01);
+    digitalWrite(S3_2, (channel >> 3) & 0x01);
+  }
+}
 
 
+
+*****
+// **************************************************************************************************************************************************
 /*-----------------------------------------------------------------------------------------------------------------------------------------------*/
 /*------------------------------------Include Files----------------------------------------------------------------------------------------------*/
 /*-----------------------------------------------------------------------------------------------------------------------------------------------*/
